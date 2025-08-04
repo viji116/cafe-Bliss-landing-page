@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Bliss</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f1e4;
+    }
+
+    header {
+      background-color: #8B4513;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #4b2e19;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      background-color: #8B4513;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .menu {
+      padding: 4rem 2rem;
+      background-color: #fff8ee;
+      text-align: center;
+    }
+
+    .menu h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #4b2e19;
+    }
+
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .menu-item {
+      background-color: #4b2e19;
+      color: white;
+      padding: 1rem;
+      width: 150px;
+      border-radius: 10px;
+    }
+
+    .menu-item h3 {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #8B4513;
+      color: white;
+      height: 60px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div><strong>Café Bliss</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Café Bliss</h1>
+    <p>Your daily dose of happiness in every sip & bite.</p>
+    <a href="#menu"><button>View Menu</button></a>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <h2>Our Popular Selections</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="Elavate lab/coffee.jpg" alt="Coffee"
+		width="100">
+		
+        <h3>Coffee</h3>
+        <p>Rich & aromatic blends</p>
+      </div>
+      <div class="menu-item">
+        <img src="Elavate lab/Croissant.webp" alt="Croissant"
+		width="100">
+        <h3>Croissant</h3>
+        <p>Freshly baked daily</p>
+      </div>
+      <div class="menu-item">
+        <img src="Elavate lab/Sandwich.webp" alt="Sandwich"
+		width="100">
+        <h3>Sandwich</h3>
+        <p>Tasty & filling choices</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Café Bliss. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
